@@ -1,11 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wbpack Exercise</title>
-  <script defer src="index.bundle.js"></script></head>
+    <meta charset="UTF-8">
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="style.css">
+      <script defer src="index.bundle.js"></script></head>
   <body>
-    <p>This is Webpack Starter!</p>
+    <h1>Leaderboard</h1>
+   <div> 
+    <div>
+      <h2>Recent Scores</h2>
+      <button onclick="location.reload()">Refresh</button>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <td>Jane</td>
+            <td>95</td>
+          </tr>
+          <tr>
+            <td>Bob</td>
+            <td>87</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    
+    <div>
+      <h2>Add Score</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="score">Score:</label>
+        <input type="number" id="score" name="score" required>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
   </body>
 </html>
