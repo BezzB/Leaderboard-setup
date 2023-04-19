@@ -1,63 +1,94 @@
-<div align="center">
-  <img src="mussie.png" alt="logo" width="300px"  height="300px" />
-  <br/>
-  <h3><b>Webpack App Starter</b></h3>
+# LeaderBoard Project
+
+<a name="readme-top"></a>
+
+  <h3><b>LeaderBoard Project</b></h3>
+
 </div>
 
-This is a simple starter project for building web applications using Webpack. It includes configuration files for development and production builds, as well as basic file structure for a typical web app.
 
-## Getting Started
+# 📗 Table of Contents
 
-To get started with this project, clone the repository to your local machine and install the required dependencies:
+- [LeaderBoard Project](#leaderboard-project)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[LeaderBoard Project\] ](#-leaderboard-project-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [👥 Authors ](#-authors-)
+  - [📝 License ](#-license-)
 
-```sh
- git clone git@github.com:MussieTeka/webpack.git
- cd webapp-starter
- npm install
 
-```
+# 📖 [LeaderBoard Project] <a name="about-project"></a>
 
-## Usage
+**[LeaderBoard Project]** is a simple build up demo project.
 
-To start a development server, run the following command:
+## 🛠 Built With <a name="built-with"></a>
 
-Run Dev Server (Port 8080)
+### Tech Stack <a name="tech-stack"></a>
 
-```sh
-  npm start
-```
 
-This will start a local server at http://localhost:8080 and will automatically reload the page whenever you make changes to your code.
+<details>
+  <summary>HTML</summary>
+</details>
 
-## Production
+<details>
+  <summary>CSS</summary>
+</details>
 
-To create a production build, run the following command:
+<details>
+  <summary>Javascript</summary>
+</details>
 
-```sh
-  npm run build
-```
+<details>
+  <summary>Webpack modules</summary>
+</details>
 
-This will create a production-ready build of your application in the dist folder.
 
-## Configuration
+<!-- Features -->
 
-This starter project uses Webpack to bundle and optimize your code. The configuration file webpack.config.js includes the following:
+### Key Features <a name="key-features"></a>
 
-- mode: Set to 'development' or 'production' depending on whether you are building for development or production.
-- entry: The entry point for your application. Change this to the path of your main JavaScript file.
-- devServer: Configuration for the development server, including the location of your static files.
-- plugins: Additional plugins to use with Webpack, such as the HtmlWebpackPlugin which generates an HTML file to serve your bundled JavaScript.
-- output: Configuration for where Webpack should output your bundled JavaScript file.
-- module: Configuration for how Webpack should handle different types of files. In this case, it includes a rule for handling CSS files using the css-loader and style-loader.
 
-## src directory
+- **[Book list]**
+- **[Modules framework used]**
+-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-The source directory contains:
+<!-- LIVE DEMO -->
 
-- index.html (main HTML)
-- style.css (main styles)
-- script.js (main JavaScript)
+## 🚀 Live Demo <a name="live-demo"></a>
 
-## License
+
+- [Live Demo Link](https://bezzb.github.io/ToDoList/dist/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+> Mention all of the collaborators of this project.
+
+👤 **Barnet**
+
+- GitHub: [@bezzB]
+- 
+ 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
