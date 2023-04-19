@@ -1,28 +1,45 @@
-# LeaderBoard Project
+# LeaderBoard-Setup-ES6
 
 <a name="readme-top"></a>
 
-  <h3><b>LeaderBoard Project COmpelet</b></h3>
+
+<a name="readme-top"></a>
+
+
+  <h3><b>LeaderBoard-Setup</b></h3>
 
 </div>
 
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [LeaderBoard Project](#leaderboard-project)
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 \[LeaderBoard Project\] ](#-leaderboard-project-)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
-  - [👥 Authors ](#-authors-)
-  - [📝 License ](#-license-)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [LeaderBoard-Setup ] <a name="about-project"></a>
 
 
-# 📖 [LeaderBoard Project] <a name="about-project"></a>
-
-**[LeaderBoard Project]** is a simple build up demo project.
+**[LeaderBoard-Setup ]** is a simple build Project To Display and add Leaderscores.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -41,17 +58,12 @@
   <summary>Javascript</summary>
 </details>
 
-<details>
-  <summary>Webpack modules</summary>
-</details>
-
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
 
-- **[Book list]**
+- **[Leaderboard]**
 - **[Modules framework used]**
 -
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -61,12 +73,30 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://bezzb.github.io/ToDoList/dist/)
+- [Live Demo Link](https://bezzb.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
+## 💻 Getting Started <a name="getting-started"></a>
+
+
+To get a local copy up and running, follow these steps.
+
+
+### Prerequisites
+
+In order to run this project you need: 
+
+## Recommendation
+1. A good Computer
+2. A good knowledge about CSS & HTML
+
+* cd Hello_Microverse
+* git clone https://github.com/BezzB/hello-world-microverse-
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
@@ -82,6 +112,46 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] **[Flexable colors]**
+- [ ] **[Nav Bars]**
+- [ ] **[Footer]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+> Write a message to encourage readers to support your project
+
+If you like this please comment on it.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank you my patner Mario and Abass for the help.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
