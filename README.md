@@ -2,7 +2,7 @@
 
 <a name="readme-top"></a>
 
-  <h3><b>LeaderBoard Project</b></h3>
+  <h3><b>LeaderBoard Project COmpelet</b></h3>
 
 </div>
 
