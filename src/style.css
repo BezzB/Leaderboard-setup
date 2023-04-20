@@ -21,7 +21,8 @@ h1 {
   cursor: pointer;
   border-radius: 5px;
 }
-#title{
+
+#title {
   display: flex;
   flex-direction: row;
 }
