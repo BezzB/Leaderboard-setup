@@ -1,9 +1,6 @@
-/* eslint-disable no-const-assign */
 import './style.css';
 
 // Store your API key and game ID in variables
-// eslint-disable-next-line no-unused-vars
-const API_KEY = 'h5tQF0UfCC2SNpraUeyL';
 const GAME_ID = 'h5tQF0UfCC2SNpraUeyL';
 
 // Function to fetch scores for your game from the API and update the table
@@ -46,11 +43,12 @@ const createGame = async () => {
   const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ name: 'YOUR_GAME_NAME' }),
+    body: JSON.stringify({ name: 'RACING HORSE' }),
   });
   const data = await response.json();
-  // eslint-disable-next-line prefer-destructuring
-  GAME_ID = data.result.split('games/')[1].split('/')[0];
+  const [, GAME_ID] = data.result.split('games/');
+  // eslint-disable-next-line no-console
+  console.log(GAME_ID);
   refreshScores();
 };
 
