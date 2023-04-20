@@ -45,10 +45,7 @@ const createGame = async () => {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ name: 'RACING HORSE' }),
   });
-  const data = await response.json();
-  const [, GAME_ID] = data.result.split('games/');
-  // eslint-disable-next-line no-console
-  console.log(GAME_ID);
+  await response.json();
   refreshScores();
 };
 
