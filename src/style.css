@@ -1,6 +1,6 @@
 body {
   height: 100%;
-  background: linear-gradient(to right, rgb(123, 212, 247), rgb(15, 74, 122), rgb(247, 123, 123));
+  background: linear-gradient(to right, rgb(123, 212, 247), rgb(15, 74, 122));
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -20,6 +20,11 @@ h1 {
   margin: 10px;
   cursor: pointer;
   border-radius: 5px;
+}
+
+#title {
+  display: flex;
+  flex-direction: row;
 }
 
 #refreshBtn:hover {
